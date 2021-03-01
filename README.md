@@ -1,10 +1,13 @@
-###*Use "-dist" files in config/autoload directory.*
-###*Use "data/schema.sql" file.*
+
 
 # Mezzio Skeleton and Installer
 
 [![Build Status](https://travis-ci.com/mezzio/mezzio-skeleton.svg?branch=master)](https://travis-ci.com/mezzio/mezzio-skeleton)
 [![Coverage Status](https://coveralls.io/repos/github/mezzio/mezzio-skeleton/badge.svg?branch=master)](https://coveralls.io/github/mezzio/mezzio-skeleton?branch=master)
+
+## *Use "-dist" files in config/autoload directory.*
+
+## *Use "data/schema.sql" file.*
 
 *Begin developing PSR-15 middleware applications in seconds!*
 
