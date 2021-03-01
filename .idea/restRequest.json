@@ -1,0 +1,6 @@
+{
+  "uri": "http://http//localhost:8080/announcements",
+  "method": "GET",
+  "body": "",
+  "headers": {}
+}

@@ -1,0 +1,513 @@
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 30,
+      "content": "This is a sample announcement #30"
+    }
+  }
+}
+
+<> 2021-03-01T114617.500.html
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114434.500.html
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114335.200.json
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114250.404.html
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114231.200.json
+
+###
+
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+###
+
+GET http://localhost:8080/announcements
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T114202.200.json
+
+###
+
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114113.404.html
+
+###
+
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+###
+
+POST http://localhost:8080/announcements/
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+<> 2021-03-01T114015.200.json
+
+###
+
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #20"
+    }
+  }
+}
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T113253.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T113234.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T113129.200.json
+
+###
+
+GET http://localhost:8080/announcements
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T112840.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112806.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-03-01T112729.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112621.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112556.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112528.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112510.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112355.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112333.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-03-01T112305.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T044449.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T044429.500.html
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T044339.500.html
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T043804.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T043748.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T043648.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T043625.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042633.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042616.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042437.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042408.200.json
+
+###
+
+GET http://localhost:8080/announcements?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042253.500.html
+
+###
+
+GET http://localhost:8080/announcements/?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-28T042137.500.html
+
+###
+
+PUT http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "id": "2dc1759e-d04c-497e-ac5a-4b3de5fd13e8",
+      "sort": 15,
+      "content": "This is a sample announcement [UPDATED AGAIN]"
+    }
+  }
+}
+
+<> 2021-02-27T045645.500.html
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-02-27T045607.200.json
+
+###
+
+GET http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+<> 2021-02-27T045532.500.html
+
+###
+
+DELETE http://localhost:8080/announcements/4b36009a-ef12-4fc1-9d96-7df0173328b7
+Content-Type: : application/json
+
+<> 2021-02-27T042418.200.json
+
+###
+
+GET http://localhost:8080/announcements/?page=2
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-27T034952.500.html
+
+###
+
+GET http://localhost:8080/announcements
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-27T034908.500.html
+
+###
+
+GET http://localhost:8080/announcements
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-27T034809.500.html
+
+###
+
+GET http://localhost:8080/announcements/
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2021-02-27T034720.500.html
+
+###
+
+PUT http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "id": "2dc1759e-d04c-497e-ac5a-4b3de5fd13e8",
+      "sort": 15,
+      "content": "This is a sample announcement [UPDATED]"
+    }
+  }
+}
+
+<> 2021-02-27T034641.500.html
+
+###
+
+PUT http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "id": "2dc1759e-d04c-497e-ac5a-4b3de5fd13e8",
+      "sort": 15,
+      "content": "This is a sample announcement [UPDATED]"
+    }
+  }
+}
+
+<> 2021-02-27T032945.500.html
+
+###
+
+PUT http://localhost:8080/announcements/2dc1759e-d04c-497e-ac5a-4b3de5fd13e8
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "id": "2dc1759e-d04c-497e-ac5a-4b3de5fd13e8",
+      "sort": 15,
+      "content": "This is a sample announcement [UPDATED]"
+    }
+  }
+}
+
+<> 2021-02-27T032637.500.html
+
+###
+
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "Request": {
+    "Announcements": {
+      "sort": 20,
+      "content": "This is a sample announcement #2"
+    }
+  }
+}
+
+<> 2021-02-27T120216.500.html
+
+###
+
