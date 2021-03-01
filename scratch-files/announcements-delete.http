@@ -1,0 +1,7 @@
+DELETE http://localhost:8080/announcements/4b36009a-ef12-4fc1-9d96-7df0173328b7
+Content-Type: : application/json
+
+<> 2021-02-27T042418.200.json
+
+
+###
