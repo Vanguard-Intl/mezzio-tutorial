@@ -1,3 +1,6 @@
+###*Use "-dist" files in config/autoload directory.*
+###*Use "data/schema.sql" file.*
+
 # Mezzio Skeleton and Installer
 
 [![Build Status](https://travis-ci.com/mezzio/mezzio-skeleton.svg?branch=master)](https://travis-ci.com/mezzio/mezzio-skeleton)

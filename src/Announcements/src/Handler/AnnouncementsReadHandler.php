@@ -45,20 +45,19 @@ class AnnouncementsReadHandler implements RequestHandlerInterface
 
     public function handle(ServerRequestInterface $request) : ResponseInterface
     {
-        return new JsonResponse($request->getAttributes());
-//
-//        $id = $request->getAttribute('id', null);
-//        $entityRepository = $this->entityManager->getRepository(Announcement::class);
-//        $entity = $entityRepository->find($id);
-//
-//        if(empty($entity)) {
-//            $result['_error']['error'] = "missing_request";
-//            $result['_error']['error_description'] = 'No request body sent';
-//
-//            return new JsonResponse($result, 400);
-//        }
-//
-//        $resource = $this->resourceGenerator->fromObject($entity, $request);
-//        return $this->halResponseFactory->createResponse($request, $resource);
+
+        $id = $request->getAttribute('id', null);
+        $entityRepository = $this->entityManager->getRepository(Announcement::class);
+        $entity = $entityRepository->find($id);
+
+        if(empty($entity)) {
+            $result['_error']['error'] = "missing_request";
+            $result['_error']['error_description'] = 'No request body sent';
+
+            return new JsonResponse($result, 400);
+        }
+
+        $resource = $this->resourceGenerator->fromObject($entity, $request);
+        return $this->halResponseFactory->createResponse($request, $resource);
     }
 }

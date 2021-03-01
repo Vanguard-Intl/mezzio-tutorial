@@ -8,7 +8,6 @@ use Announcements\Entity\Announcement;
 use Announcements\Entity\AnnouncementCollection;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query;
-use Doctrine\ORM\Tools\Pagination\Paginator;
 use Laminas\Diactoros\Response\JsonResponse;
 use Mezzio\Hal\HalResponseFactory;
 use Mezzio\Hal\ResourceGenerator;
@@ -20,8 +19,8 @@ use Mezzio\Template\TemplateRendererInterface;
 
 class AnnouncementsListHandler implements RequestHandlerInterface
 {
-    /**@var TemplateRendererInterface */
-    private $renderer;
+//    /**@var TemplateRendererInterface */
+//    private $renderer;
     /**@var EntityManager */
     protected $entityManager;
     /**@var int */
@@ -57,9 +56,9 @@ class AnnouncementsListHandler implements RequestHandlerInterface
             ->setMaxResults($this->pageCount)
             ->getQuery();
 
-        $paginator = new AnnouncementCollection($query);
+        $result = new AnnouncementCollection($query);
 
-        $resource = $this->resourceGenerator->fromObject($paginator, $request);
+        $resource = $this->resourceGenerator->fromObject($result, $request);
         return $this->halResponseFactory->createResponse($request, $resource);
 
         /*
