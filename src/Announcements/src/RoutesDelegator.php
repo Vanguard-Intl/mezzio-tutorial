@@ -24,7 +24,7 @@ class RoutesDelegator
         $app->post('/announcements/', Handler\AnnouncementsCreateHandler::class, 'announcements.create');
 
         // GET one particular announcement
-        $app->get('/announcements[/:id]', Handler\AnnouncementsReadHandler::class, 'announcements.read');
+        $app->get('/announcements/:id', Handler\AnnouncementsReadHandler::class, 'announcements.read');
 
         // Update an announcement
         $app->put('/announcements/:id', Handler\AnnouncementsUpdateHandler::class, 'announcements.update');
@@ -33,7 +33,7 @@ class RoutesDelegator
         $app->delete('/announcements/:id', Handler\AnnouncementsDeleteHandler::class, 'announcements.delete');
 
         // GET a list of announcements
-        $app->get('/announcements[?page=:page]', Handler\AnnouncementsListHandler::class, 'announcements.list');
+        $app->get('/announcements', Handler\AnnouncementsListHandler::class, 'announcements.list');
 
         return $app;
     }
