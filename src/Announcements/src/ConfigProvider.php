@@ -79,8 +79,8 @@ class ConfigProvider
 //    {
 //        return [
 //            [
-//                'path'              => '/announcements/',
-//                'middleware'        => Handler\AnnouncementsReadHandler::class,
+//                'path'              => '/banks/',
+//                'middleware'        => Handler\BanksReadHandler::class,
 //                'allowed_methods'   => ['GET'],
 //            ]
 //        ];

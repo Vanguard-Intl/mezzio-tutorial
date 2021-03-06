@@ -53,7 +53,8 @@
         "mezzio/mezzio-laminasrouter": "^3.0.1",
         "mezzio/mezzio-laminasviewrenderer": "^2.2",
         "ramsey/uuid-doctrine": "^1.6",
-        "roave/psr-container-doctrine": "^2.2"
+        "roave/psr-container-doctrine": "^2.2",
+        "ext-json": "*"
     },
     "require-dev": {
         "laminas/laminas-development-mode": "^3.2",
@@ -67,7 +68,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/App/src/",
-            "Announcements\\": "src/Announcements/src/"
+            "Announcements\\": "src/Announcements/src/",
+            "Banks\\": "src/Banks/src/"
         }
     },
     "autoload-dev": {

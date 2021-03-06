@@ -75,7 +75,7 @@ class AnnouncementsDeleteHandler implements RequestHandlerInterface
             return new JsonResponse($result, 400);
         }
 
-        $result['Result']['_embedded']['Announcement'] = ['deleted_id' => $request->getAttribute('id')];
+        $result['_embedded']['Announcement'] = ['deleted_id' => $request->getAttribute('id')];
 
         return new JsonResponse($result);
 

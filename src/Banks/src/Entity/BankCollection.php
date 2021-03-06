@@ -1,17 +1,12 @@
 <?php
 
+declare(strict_types=1);
 
-namespace Banks\Handler;
+namespace Banks\Entity;
 
+use Doctrine\ORM\Tools\Pagination\Paginator;
 
-class BankCollection
+class BankCollection extends Paginator
 {
 
-    /**
-     * BankCollection constructor.
-     * @param \Doctrine\ORM\Query $query
-     */
-    public function __construct(\Doctrine\ORM\Query $query)
-    {
-    }
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Announcements;
+namespace Banks;
 
 use Mezzio\Application;
 use Psr\Container\ContainerInterface;
@@ -20,20 +20,20 @@ class RoutesDelegator
         /** @var $app Application */
         $app = $callback();
 
-        // POST an announcement
-        $app->post('/announcements/', Handler\AnnouncementsCreateHandler::class, 'announcements.create');
+        // POST a bank
+        $app->post('/banks', Handler\BanksCreateHandler::class, 'banks.create');
 
-        // GET one particular announcement
-        $app->get('/announcements/:id', Handler\AnnouncementsReadHandler::class, 'announcements.read');
+        // GET one particular bank
+        $app->get('/banks/:id', Handler\BanksReadHandler::class, 'banks.read');
 
-        // Update an announcement
-        $app->put('/announcements/:id', Handler\AnnouncementsUpdateHandler::class, 'announcements.update');
+        // Update an bank
+        $app->put('/banks/:id', Handler\BanksUpdateHandler::class, 'banks.update');
 
-        // DELETE an announcement
-        $app->delete('/announcements/:id', Handler\AnnouncementsDeleteHandler::class, 'announcements.delete');
+        // DELETE an bank
+        $app->delete('/banks/:id', Handler\BanksDeleteHandler::class, 'banks.delete');
 
-        // GET a list of announcements
-        $app->get('/announcements', Handler\AnnouncementsListHandler::class, 'announcements.list');
+        // GET a list of banks
+        $app->get('/banks[/]', Handler\BanksListHandler::class, 'banks.list');
 
         return $app;
     }

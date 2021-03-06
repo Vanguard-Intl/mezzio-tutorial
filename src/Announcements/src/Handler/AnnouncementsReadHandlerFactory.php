@@ -14,7 +14,7 @@ class AnnouncementsReadHandlerFactory
 {
     public function __invoke(ContainerInterface $container) : AnnouncementsReadHandler
     {
-//        return new AnnouncementsReadHandler($container->get(TemplateRendererInterface::class));
+//        return new BanksReadHandler($container->get(TemplateRendererInterface::class));
         return new AnnouncementsReadHandler(
             $container->get(EntityManager::class),
             $container->get(HalResponseFactory::class),

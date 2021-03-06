@@ -15,7 +15,10 @@ $cacheConfig = [
 $aggregator = new ConfigAggregator([
     \Laminas\Hydrator\ConfigProvider::class,
     \Mezzio\Hal\ConfigProvider::class,
+
+    \Banks\ConfigProvider::class,
     \Announcements\ConfigProvider::class,
+
     \Mezzio\LaminasView\ConfigProvider::class,
     \Mezzio\Router\LaminasRouter\ConfigProvider::class,
     \Laminas\Router\ConfigProvider::class,
